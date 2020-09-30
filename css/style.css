@@ -86,11 +86,14 @@ a, a:hover{
     font-size: 52px;
     line-height: 58px;
     font-weight: 900;
-    animation: textanimation2 1s ease-in-out;
+    animation: textanimation 1s ease-in-out;
 }
-@keyframes textanimation2 {
+@keyframes textanimation {
     0% {
         transform: scale(0);
+    }
+	   50% {
+        transform: scale(0.9);
     }
     100% {
         transform: scale(1);
